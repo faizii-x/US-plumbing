@@ -6,11 +6,11 @@ import Card3 from "../../public/png/card3.png";
 function HomeCards() {
   return (
     <>
-      <h2 className="text-center text-[#000000] text-[42px] font-Roboto mt-8">
+      <h2 className="text-center text-[#000000] text-[42px] font-Roboto mt-8 ">
         Types Of Projects
       </h2>
 
-      <section className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 container mx-auto mt-8">
+      <section className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 container mx-auto mt-8 mb-8">
         <div className="border ">
           <img src={Card1} alt="" className="w-full" />
           <h3 className="text-black text-[20px] font-Roboto font-medium  p-2">

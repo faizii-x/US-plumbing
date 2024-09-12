@@ -36,7 +36,7 @@ function HalfText() {
 
   return (
     <>
-    <section className="bg-[#c7d9fc] p-16">
+    <section className="bg-[#c7d9fc] p-16 mb-8">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 container mx-auto mt-8 mb-24">
         <div className="col-span-2">
           <h3 className="text-black text-[42px] font-Roboto font-semibold mb-2">
