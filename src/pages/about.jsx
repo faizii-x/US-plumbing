@@ -1,6 +1,10 @@
+import AboutBanner from "../components/aboutBanner"
 import AboutStart from "../components/aboutStart"
-import Banner from "../components/banner"
+import Counter from "../components/counter"
+import ImageAbout from "../components/iamgeAbout"
 import SecondAbout from "../components/secondAbout"
+import TextAbout from "../components/textAbout"
+import ContactHome from "../components/contactHome"
 
 function About() {
   return (
@@ -8,7 +12,11 @@ function About() {
     
    <AboutStart/>
    <SecondAbout/>
-    <Banner/>
+   <Counter/>
+   <TextAbout/>
+   <AboutBanner/>
+    <ImageAbout/>
+    <ContactHome/>
     </>
   )
 }

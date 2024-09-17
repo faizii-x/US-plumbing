@@ -1,19 +1,19 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Logo from "../../public/png/logo2.png";
 import { Link, useLocation } from "react-router-dom";
-// import Modal from "./modal";
+import Modal from "./modal";
 
 export default function Example({ open, setOpen }) {
-  //   const [hello, setHello] = useState(false);
+    const [hello, setHello] = useState(false);
 
-  //   const openModal = () => {
-  //     setHello(true);
-  //   };
+    const openModal = () => {
+      setHello(true);
+    };
 
-  //   const closeModal = () => {
-  //     setHello(false);
-  //   };
+    const closeModal = () => {
+      setHello(false);
+    };
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -87,7 +87,7 @@ export default function Example({ open, setOpen }) {
                       </Link>
 
                       <div className="relative group ">
-                        <Link to="/services/">
+                        <Link to="/service/">
                           <div
                             id="multiLevelDropdownButton"
                             className="flex justify-start gap-1"
@@ -95,7 +95,7 @@ export default function Example({ open, setOpen }) {
                             <h2 className="hover:text-hover  text-white pt-5">
                               Services
                             </h2>
-                            <svg
+                            {/* <svg
                               className="w-2.5 h-2.5 mt-7 text-white cursor-pointer"
                               aria-hidden="true"
                               xmlns="http://www.w3.org/2000/svg"
@@ -109,10 +109,10 @@ export default function Example({ open, setOpen }) {
                                 strokeWidth="2"
                                 d="m1 1 4 4 4-4"
                               />
-                            </svg>
+                            </svg> */}
                           </div>
                         </Link>
-                        <div
+                        {/* <div
                           id="multi-dropdown"
                           className="absolute w-[260px] hidden bg-white divide-y divide-gray-100 rounded-lg shadow-xl dark:bg-gray-700 group-hover:block"
                         >
@@ -199,12 +199,12 @@ export default function Example({ open, setOpen }) {
                               </a>
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
 
                       {/* .................................... */}
 
-                      <div className="relative group">
+                      {/* <div className="relative group">
                         <Link to="/our-trades/">
                           <div
                             id="multiLevelDropdownButton"
@@ -505,7 +505,7 @@ export default function Example({ open, setOpen }) {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
 
                       {/* ............................................. */}
 
@@ -514,17 +514,17 @@ export default function Example({ open, setOpen }) {
                           About Us
                         </p>
                       </Link>
-                      <Link to="/payment/">
+                      {/* <Link to="/payment/">
                         <p className="hover:text-hover font-montserrat text-white pt-5">
                           Payment
                         </p>
-                      </Link>
+                      </Link> */}
 
-                      <Link to="/estimating-fee/">
+                      {/* <Link to="/estimating-fee/">
                         <p className="hover:text-hover font-montserrat text-white pt-5">
                           Estimation fee
                         </p>
-                      </Link>
+                      </Link> */}
                       <Link to="/contact-us/">
                         <p className="hover:text-hover font-montserrat text-white pt-5">
                           Contact
@@ -532,14 +532,14 @@ export default function Example({ open, setOpen }) {
                       </Link>
 
                       <button
-                        //    onClick={openModal}
+                           onClick={openModal}
                         className="mt-[18px] w-[149px] h-[42px] bg-white hover:bg-[#15A7AD] font-inter text-[16px] text-black rounded-[15px]"
                       >
-                        Quick Estimate
+                        Get Started
                       </button>
                     </div>
                   </div>
-                  {/* {hello && <Modal closeModal={closeModal} />} */}
+                  {hello && <Modal closeModal={closeModal} />}
                 </Dialog.Panel>
               </Transition.Child>
             </div>

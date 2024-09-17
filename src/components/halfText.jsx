@@ -36,7 +36,7 @@ function HalfText() {
 
   return (
     <>
-    <section className="bg-[#c7d9fc] p-16 mb-8">
+    <section className="bg-[#c7d9fc] p-8 mb-8">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 container mx-auto mt-8 mb-24">
         <div className="col-span-2">
           <h3 className="text-black text-[42px] font-Roboto font-semibold mb-2">
@@ -55,18 +55,18 @@ function HalfText() {
           </p>
           <Link
             to="/"
-            className="font-medium text-customBlue-light hover:bg-customBlue-light hover:text-white  bg-transparent border border-customBlue-light w-[150px] flex justify-center items-center mt-6 p-3 cursor-pointer rounded-lg"
+            className="font-medium text-customBlue-light hover:bg-customBlue-light hover:text-white  bg-transparent border border-customBlue-light w-[150px] flex justify-center items-center p-3 cursor-pointer rounded-lg"
           >
             View more
           </Link>
         </div>
-        <div className="lg:col-span-1 md:col-span-2 col-span-1  ">
-          <div className="flex justify-end lg:justify-center h-[100%] lg:h-[600px] ">
-            <div className="relative w-[90%] h-[100%]">
+        <div className="lg:col-span-1 md:col-span-2 col-span-1 ">
+          {/* <div className="flex justify-end lg:justify-center h-[100%] lg:h-[600px] "> */}
+            <div className="relative w-[90%] h-[100%] ">
               <img
                 src={Pic1}
                 alt=""
-                className="w-[60%]  left-[10%] absolute bottom-0 z-10"
+                className="w-[60%]  left-[10%] absolute bottom-[80px] z-10"
                 data-aos="fade-up"
               />
               <img src={Pic2} alt="" className="w-[60%]" data-aos="fade-down" />
@@ -74,11 +74,11 @@ function HalfText() {
                 style={{ transform: `translateY(-50%)` }}
                 src={Pic3}
                 alt=""
-                className="lg:w-[60%] xl:w-[70%] w-[50%] absolute  top-[50%] right-0 "
+                className="lg:w-[60%] xl:w-[70%] w-[50%] absolute  top-[40%] right-0 "
                 data-aos="fade-left"
               />
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
       </section>

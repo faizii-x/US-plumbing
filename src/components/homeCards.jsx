@@ -11,17 +11,19 @@ function HomeCards() {
       </h2>
 
       <section className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 container mx-auto mt-8 mb-8">
+        
         <div className="border ">
           <img src={Card1} alt="" className="w-full" />
           <h3 className="text-black text-[20px] font-Roboto font-medium  p-2">
             Residential Plumbing
           </h3>
+          <div className="h-[110px] overflow-auto">
           <p className="text-[#545454] text-[16px] font-Roboto font-light p-2">
             A residential plumbing system can be succinctly described by
             focusing on two essential components: the water supply line and the
             drainage line.{" "}
           </p>
-
+          </div>
           <Link
             to="/"
             className="inline-flex justify-start gap-2 text-customBlue-light p-2"
@@ -45,17 +47,19 @@ function HomeCards() {
             </span>
           </Link>
         </div>
+       
         <div className="border ">
           <img src={Card2} alt="" className="w-full" />
           <h3 className="text-black text-[20px] font-Roboto font-medium  p-2">
             Commerical Plumbing
           </h3>
+          <div className="h-[110px] overflow-auto">
           <p className="text-[#545454] text-[16px] font-Roboto font-light p-2">
             Commercial plumbing involves the installation, maintenance, and
             repair of plumbing systems in large buildings like offices and
             hospitals.
           </p>
-
+          </div>
           <Link
             to="/"
             className="inline-flex justify-start gap-2 text-customBlue-light p-2"
@@ -84,11 +88,12 @@ function HomeCards() {
           <h3 className="text-black text-[20px] font-Roboto font-medium  p-2">
             Drain Cleaning
           </h3>
+          <div className="h-[110px] overflow-auto">
           <p className="text-[#545454] text-[16px] font-Roboto font-light p-2">
             Drain cleaning involves the removal of clogs and blockages in pipes
             to ensure proper water flow and prevent backups.
           </p>
-
+          </div>
           <Link
             to="/"
             className="inline-flex justify-start gap-2 text-customBlue-light p-2"
