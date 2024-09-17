@@ -69,7 +69,7 @@ function Counter() {
 
   return (
     <>
-      <div className="imagebgg110 mb-8">
+      <section className="imagebgg110 mb-8">
         <h3 className="text-center font-Roboto font-bold text-white text-[40px]" data-aos="fade-down">
           ACHEIVEMENTS
         </h3>
@@ -153,7 +153,7 @@ function Counter() {
           sustainability, and client satisfaction in every project, ensuring
           unmatched quality and reliability.
         </p>
-      </div>
+      </section>
     </>
   );
 }

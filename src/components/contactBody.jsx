@@ -4,7 +4,7 @@ function ContactBody() {
       <h2 className="text-[32px] font-Roboto font-medium container mx-auto mt-16 mb-4">
         Contact Information
       </h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 container mx-auto">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 container mx-auto">
         <div className="col-span-2">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 mb-12">
             <div className="">
@@ -40,45 +40,45 @@ function ContactBody() {
             <input
               type="text"
               placeholder="Name*"
-              className="pl-2 p-3 border border-[#929090] bg-[#D8D8D8] w-[100%] "
+              className="pl-2 p-3 border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%] "
             />
             <input
               type="text"
               placeholder="Email*"
-              className="pl-2 p-3 border border-[#929090] bg-[#D8D8D8] w-[100%]"
+              className="pl-2 p-3 border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%]"
             />
           </div>
           <div className="flex justify-start gap-3 mb-5">
             <input
               type="text"
               placeholder="Mobile Number*"
-              className="pl-2 p-3 border border-[#929090] bg-[#D8D8D8] w-[100%]"
+              className="pl-2 p-3 border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%]"
             />
             <input
               type="text"
               placeholder="Phone*"
-              className="pl-2 p-3 border border-[#929090] bg-[#D8D8D8] w-[100%]"
+              className="pl-2 p-3 border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%]"
             />
           </div>
           <div className="flex justify-start gap-3 mb-5">
             <input
               type="text"
               placeholder="Address*"
-              className="pl-2 p-3 border border-[#929090] bg-[#D8D8D8] w-[100%]"
+              className="pl-2 p-3 border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%]"
             />
             <input
               type="text"
               placeholder="City, State, Zip*"
-              className="pl-2 p-3 border border-[#929090] bg-[#D8D8D8] w-[100%]"
+              className="pl-2 p-3 border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%]"
             />
           </div>
           <textarea
             id="comments"
-            className="border border-[#929090] bg-[#D8D8D8] w-[100%] resize-none pl-2 pt-2 mb-5"
+            className="border border-[#929090] text-[#8C8C8C] bg-[#f3f3f3] w-[100%] resize-none pl-2 pt-2 mb-5"
             name="comments"
             rows="8"
             cols="50"
-            placeholder="Enter your comments here"
+            placeholder="Enter your Message..."
           ></textarea>
           <button className="text-customBlue-light border border-customBlue-light w-[135px] h-[50px] hover:rounded-sm hover:text-white hover:bg-customBlue-light mb-8">Submit</button>
         </div>
@@ -93,7 +93,7 @@ function ContactBody() {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>
+      </section>
     </>
   );
 }

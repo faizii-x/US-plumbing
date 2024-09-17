@@ -4,7 +4,7 @@ import Third from "../../public/png/third.png";
 function TextAbout() {
   return (
     <>
-      <div className="container mx-auto">
+      <section className="container mx-auto">
         <h3 className="text-[36px] font-Roboto font-semibold">
           OUR <span className="text-customBlue-light">SKILLED STAFF</span> ARE
           AT YOUR SERVICE
@@ -37,7 +37,7 @@ function TextAbout() {
             <img src={Third} alt="" />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -6,7 +6,7 @@ function Emergency() {
       <h4 className="text-[42px] font-Roboto font-normal container mx-auto leading-[50px] mb-4">
         Emergency Plumbing Services, Residential & Commercial Plumbing Services
       </h4>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-6 container mx-auto">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-6 container mx-auto">
         <div className="col-span-2">
           <p className="text-customBlue-para text-[18px] mb-8">
             A1 Plumbing Emergency Service offers 24/7 rapid response for urgent
@@ -85,7 +85,7 @@ function Emergency() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

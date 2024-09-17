@@ -26,7 +26,7 @@ function HomeCards() {
           </div>
           <Link
             to="/"
-            className="inline-flex justify-start gap-2 text-customBlue-light p-2"
+            className="inline-flex justify-start gap-2 text-customBlue-light p-2 hover:animate-bounce"
           >
             <span>Read more</span>
             <span>
@@ -36,7 +36,7 @@ function HomeCards() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="size-6 mt-[2px]"
+                className="size-6 mt-[2px] "
               >
                 <path
                   strokeLinecap="round"
@@ -62,7 +62,7 @@ function HomeCards() {
           </div>
           <Link
             to="/"
-            className="inline-flex justify-start gap-2 text-customBlue-light p-2"
+            className="inline-flex justify-start gap-2 text-customBlue-light p-2 hover:animate-bounce"
           >
             <span>Read more</span>
             <span>
@@ -96,7 +96,7 @@ function HomeCards() {
           </div>
           <Link
             to="/"
-            className="inline-flex justify-start gap-2 text-customBlue-light p-2"
+            className="inline-flex justify-start gap-2 text-customBlue-light p-2 hover:animate-bounce"
           >
             <span>Read more</span>
             <span>

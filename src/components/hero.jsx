@@ -11,32 +11,7 @@ function Hero() {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //       infinite: true,
-    //       dots: false,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //       initialSlide: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
+   
   };
 
   return (
@@ -46,7 +21,7 @@ function Hero() {
           <div className="slider-parent bg-cover bg-center imagebg">
             <div className="container mx-auto">
             <div className=" w-full h-auto sm:h-[541px] flex sm:justify-end justify-start  ">
-              <div className="w-[50%] self-center ">
+              <div className="sm:w-[50%] w-full self-center ">
                 <h1 className="  md:mt-0 mt-[100px] text-customBlue-light text-[42px] font-Roboto font-bold leading-[50px]">
                   Reliable Plumbing Solutions
                 </h1>
@@ -67,7 +42,7 @@ function Hero() {
           <div className="slider-parent bg-cover bg-center imagebgg">
             <div className="container mx-auto">
             <div className=" w-full  h-auto sm:h-[541px] flex justify-start  ">
-              <div className="w-[50%] self-center  ">
+              <div className="sm:w-[50%] w-full self-center  ">
                 <h1 className="  md:mt-0 mt-[100px] text-customBlue-light text-[42px] font-Roboto font-bold leading-[50px]">
                   Reliable Plumbing Solutions
                 </h1>

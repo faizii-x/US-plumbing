@@ -4,7 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-function ImageAbout() {
+function  ImageAbout() {
   useEffect(() => {
     const initializeAos = () => {
       if (window.innerWidth > 768) {
@@ -34,7 +34,7 @@ function ImageAbout() {
 
   return (
     <>
-      <div className="container mx-auto">
+      <section className="container mx-auto">
         <h3 className="text-[36px] font-Roboto font-semibold">
           MEET OUR <span className="text-customBlue-light">EXPERT TEAM</span>
         </h3>
@@ -70,16 +70,16 @@ function ImageAbout() {
               Trust us for all your Demolition & Plumbing needs.
             </h4>
           </div>
-          <div className="col-span-1 lg:col-span-1 md:col-span-2 mx-auto relative" data-aos="fade-left">
-            <img src={Active} alt="" />
+          <div className="col-span-1 lg:col-span-1 md:col-span-2 mx-auto relative" >
+            <img src={Active} alt="" data-aos="fade-left"/>
             <img
               src={Nonactive}
               alt=""
-              className="absolute -mt-24 left-24 lg:block hidden"
+              className="absolute -mt-24 left-24 lg:block hidden" data-aos="fade-up"
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

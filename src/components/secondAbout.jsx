@@ -4,7 +4,7 @@ import Tabs from "./tabs";
 function SecondAbout() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto mt-8 mb-8">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto mt-8 mb-8">
         <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
           <img src={Imgg} alt="" className=""/>
         </div>
@@ -22,7 +22,7 @@ function SecondAbout() {
 
           <Tabs />
         </div>
-      </div>
+      </section>
     </>
   );
 }

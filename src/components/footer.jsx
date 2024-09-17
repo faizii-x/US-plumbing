@@ -16,7 +16,7 @@ function Footer() {
 
   return (
     <>
-      <div className="footer w-full p-4">
+      <section className="footer w-full p-4">
         <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-2 container mx-auto gap-2 ">
           <div className="col-span-2 mx-auto">
             <a href="/" onClick={handleScrollToTop}>
@@ -49,10 +49,10 @@ function Footer() {
                 <a href="/">Home</a>
               </li>
               <li className="mt-1 hover:underline font-normal font-Roboto">
-                <a href="/about">About Us</a>
+                <a href="/about-us">About Us</a>
               </li>
               <li className="mt-1 hover:underline font-normal font-Roboto">
-                <a href="/contact">Contact Us</a>
+                <a href="/contact-us">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ function Footer() {
             </p>
             <ul className="text-white mt-4">
               <li className="hover:underline font-normal font-Roboto">
-                <a href="/plumbing">Plumbing</a>
+                <a href="/service">Plumbing</a>
               </li>
             </ul>
           </div>
@@ -88,7 +88,7 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* ..................... */}
       <div className="p-1">
         <p className="text-black text-[16px] text-center font-Roboto">

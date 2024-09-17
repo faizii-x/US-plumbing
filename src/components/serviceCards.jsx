@@ -10,8 +10,8 @@ function ServiceCards() {
 
 
 
-      <div className="flex justify-center flex-wrap container mx-auto pt-16 mb-8">
-        <div className="grid grid-cols-3 gap-6">
+      <section className="flex justify-center flex-wrap container mx-auto pt-16 mb-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
         <div className=" p-6 bg-white border">
           <img src={Icon} alt="Residential Plumbing Icon" className="mx-auto mb-4" />
           <h3 className="text-[22px] font-Roboto font-medium text-center mb-2">
@@ -64,7 +64,7 @@ function ServiceCards() {
           </p>
         </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

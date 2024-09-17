@@ -34,7 +34,7 @@ function ContactHome() {
 
   return (
     <>
-      <div
+      <section
         className=" w-full h-auto bg-cover bg-center p-8"
         style={{ backgroundImage: `url(${"/png/pipe.png"})` }}
       >
@@ -47,22 +47,22 @@ function ContactHome() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="p-3 rounded-md bg-transparent border text-white w-[46%]"
+                className="p-3 rounded-md bg-transparent border text-white placeholder-white w-[46%]"
               />
               <input
                 type="text"
                 placeholder="Your Phone"
-                className="p-3 rounded-md bg-transparent border text-white w-[46%]"
+                className="p-3 rounded-md bg-transparent border text-white placeholder-white w-[46%]"
               />
             </div>
             <input
               type="text"
               placeholder="Your Email"
-              className="p-3 rounded-md bg-transparent border text-white mt-4 w-[95%]"
+              className="p-3 rounded-md bg-transparent border text-white placeholder-white mt-4 w-[95%]"
             />
 
             <textarea
-              className="textarea mb-8"
+              className="textarea mb-8 placeholder-white text-white"
               id="comments"
               placeholder="Your Message..."
               rows="5"
@@ -71,7 +71,7 @@ function ContactHome() {
 
             <Link
               to="/"
-              className=" border border-customBlue-light bg-white hover:bg-customBlue-light text-customBlue-light hover:text-white p-3 w-[220px]"
+              className="w-[160px] h-[60px] border border-customBlue-light bg-white hover:bg-customBlue-light text-customBlue-light hover:text-white "
             >
               Submit
             </Link>
@@ -88,7 +88,7 @@ function ContactHome() {
             ></iframe>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -44,7 +44,7 @@ function ClientReview() {
     
   return (
     <>
-      <div className="slider-container bg-[#e6edfc] mt-8 mb-8">
+      <section className="slider-container bg-[#e6edfc] mt-8 mb-8">
         <h2 className="text-[38px] text-customBlue-light font-roboto font-medium text-center pt-[30px]">
         What’s Our Client Say
         </h2>
@@ -178,7 +178,7 @@ function ClientReview() {
           
           </Slider>
         </div>
-      </div>
+      </section>
     </>
   );
 }

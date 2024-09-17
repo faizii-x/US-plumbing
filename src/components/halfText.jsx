@@ -1,10 +1,11 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Pic1 from "../../public/png/pic1.png";
 import Pic2 from "../../public/png/pic2.png";
 import Pic3 from "../../public/png/pic3.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 
 function HalfText() {
   useEffect(() => {
@@ -37,7 +38,7 @@ function HalfText() {
   return (
     <>
     <section className="bg-[#c7d9fc] p-8 mb-8">
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 container mx-auto mt-8 mb-24">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 container mx-auto mt-8 ">
         <div className="col-span-2">
           <h3 className="text-black text-[42px] font-Roboto font-semibold mb-2">
             WHO <span className="text-customBlue-light ">WE ARE ?</span>
@@ -74,7 +75,7 @@ function HalfText() {
                 style={{ transform: `translateY(-50%)` }}
                 src={Pic3}
                 alt=""
-                className="lg:w-[60%] xl:w-[70%] w-[50%] absolute  top-[40%] right-0 "
+                className="lg:w-[60%] xl:w-[70%] w-[50%] absolute  top-[35%] -right-8 "
                 data-aos="fade-left"
               />
             </div>

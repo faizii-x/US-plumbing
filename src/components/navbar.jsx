@@ -105,7 +105,7 @@ function Navbar() {
           </div>
         </main>
 
-        <Example open={open} setOpen={handleOnClose} />
+        <Example open={open} setOpen={handleOnClose} handleClick={handleClick}/>
       </header>
     </>
   );
