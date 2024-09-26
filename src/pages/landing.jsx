@@ -8,6 +8,7 @@ import HomeCards from "../components/homeCards";
 import Icon from "../components/icon";
 
 function Landing() {
+  // To bring page to top on page render
   useEffect(() => {
     window.scrollTo({
       top: 0,

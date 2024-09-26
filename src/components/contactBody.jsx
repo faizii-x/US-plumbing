@@ -11,7 +11,7 @@ function ContactBody() {
               <h3 className="text-[22px] font-Roboto font-semibold text-[#8C8C8C] mb-2">
                 Office hours
               </h3>
-              <p className="text-[20px] font-Roboto font-normal text-[#8C8C8C] mb-3">
+              <p className="text-[19px] font-Roboto font-normal text-[#8C8C8C] mb-3">
                 Monday to Saturday
               </p>
               <p className="text-[20px] font-Roboto font-normal text-[#8C8C8C]">

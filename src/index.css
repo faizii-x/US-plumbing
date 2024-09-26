@@ -9,8 +9,6 @@
   display: none;
 }
 
-
-
 .class-hide-nav {
   display: block;
 }
@@ -154,26 +152,71 @@
   height: 500px;
 }
 .textarea {
-  color: white; /* Sets text color to dark gray */
-  background-color: #f9f9f9; /* Sets background color to light gray */
-  border: 1px solid white; /* Sets border color */
-  padding: 10px; /* Adds padding inside the textarea */
-  font-family: Arial, sans-serif; /* Sets font family */
-  font-size: 15px; /* Sets font size */
-  border-radius: 6px;
+  color: white;
+  background-color: #f9f9f9;
+  border: 1px solid white;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  /* border-radius: 6px; */
   resize: none;
   background-color: transparent;
   margin-top: 15px;
-  width: 95%;
+  width: 100%;
 }
 .footer {
   background-color: rgb(65, 121, 228, 0.7);
 }
+
+.class-shadow {
+  text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+}
+
+.client-review-services-section .review-card {
+  
+  -webkit-box-shadow: 0px 26px 36px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 26px 36px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 26px 36px 0px rgba(0, 0, 0, 0.08);
+  
+}
+
+.client-review-services-section .slick-center .review-card {
+  height: 230px;
+  margin-top: -9px;
+}
+
+.client-review-services-section .slick-dots li button:before {
+  background-color: blue;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  content: "";
+}
+.client-review-services-section .slick-dots li button {
+  background-color: rgb(202, 202, 202);
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+}
+
+.client-review-services-section .slick-dots {
+  /* bottom: -10px; */
+  /* margin-bottom: 69px; */
+  
+}
+
+
 
 /* ..............................media queries............................. */
 
 @media (max-width: 1300px) {
   .class-hide-nav {
     display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .imagebgg11 {
+    height: 580px;
   }
 }

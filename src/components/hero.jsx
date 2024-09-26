@@ -7,7 +7,7 @@ function Hero() {
     arrows: false,
     infinite: true,
     autoplay: true,
-    speed: 2000,
+    speed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Banner() {
   return (
     <>
-      <section className="w-full h-auto  imagebgg11 relative overflow-hidden mb-8 ">
+      <section className="w-full h-auto  imagebgg11 relative overflow-hidden p-4 ">
         <div className="text-container ">
           <p className="text-[24px] font-Roboto font-normal text-white text-center mb-2 pt-8">
             If you need any emergency plumbing service, simply call our 24 hour
